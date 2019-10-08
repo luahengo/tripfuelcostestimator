@@ -1,0 +1,11 @@
+
+<div class="top"> {{title}}</div>
+<h4>Current Fuel PRice = {{fuelCost}} </h4>
+<h4>Distance = {{distance}} </h4>
+<form >
+    Distance: <input type="text" name="distance" [(ngModel)]="distance"><br>
+    Car type: <input type="text" name="cartype" [(ngModel)]="cartype"><br>
+    <input type="submit" (click)="calculateResults(distance, cartype)" value="Estimate Cost">
+</form>
+
+<h4>Fuel Cost = {{results}} </h4>
