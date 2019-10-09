@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { AdsComponent } from './ads/ads.component';
 import { FormsModule } from '@angular/forms';
-
+//edited
 const appRoutes: Routes = [
   {
     path: '',
